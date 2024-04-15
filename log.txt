@@ -1,7 +1,7 @@
 Output:
 -------
 
-Starting new simulation on Mon 15. Apr 2024 at 16:46:41:841
+Starting new simulation on Mon 15. Apr 2024 at 17:08:59:250
 
 creating netlist... done.
 Starting C:/Users/tkeller/Documents/qucs/qucs-0.0.19/bin/qucsator.exe
@@ -25,7 +25,7 @@ netlist content
 creating netlist...
 checker notice, variable `S' in equation `S11dB' not yet defined
 
-Simulation ended on Mon 15. Apr 2024 at 16:46:42:607
+Simulation ended on Mon 15. Apr 2024 at 17:08:59:949
 Ready.
 
 

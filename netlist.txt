@@ -1,10 +1,10 @@
 # Qucs 0.0.19  D:/Users/tkeller/Repositories/shared-qucs-simulations/B12T_Shared_Stripline_Resonator_prj/B12T_Stripline_resonator_gap.sch
 
-.SW:SW1 Sim="SP1" Type="lin" Param="Gap" Start="0.1mm" Stop="1mm" Points="5"
+.SW:SW1 Sim="SP1" Type="lin" Param="Gap" Start="0.127 mm" Stop="1 mm" Points="5"
 SUBST:Subst1 er="2.1" h="0.8 mm" t="35 um" tand="0.0002" rho="0.022e-6" D="0.15e-6"
 Eqn:Eqn1 S11dB="dB(S[1,1])" Export="yes"
 Pac:P1 _net0 gnd Num="1" Z="50 Ohm" P="0 dBm" f="1 GHz" Temp="26.85"
-MLIN:MS1 _net1 _net2 Subst="Subst1" W="2.5 mm" L="27mm" Model="Hammerstad" DispModel="Kirschning" Temp="26.85"
+MLIN:MS1 _net1 _net2 Subst="Subst1" W="2.5 mm" L="26mm" Model="Hammerstad" DispModel="Kirschning" Temp="26.85"
 MOPEN:MS2 _net2 Subst="Subst1" W="2.5 mm" MSModel="Hammerstad" MSDispModel="Kirschning" Model="Kirschning"
 MLIN:MS3 _net0 _net3 Subst="Subst1" W="2.5 mm" L="10 mm" Model="Hammerstad" DispModel="Kirschning" Temp="26.85"
 .SP:SP1 Type="lin" Start="7 GHz" Stop="9 GHz" Points="2001" Noise="no" NoiseIP="1" NoiseOP="2" saveCVs="no" saveAll="no"
