@@ -1,7 +1,7 @@
 Output:
 -------
 
-Starting new simulation on Mon 15. Apr 2024 at 16:36:32:148
+Starting new simulation on Mon 15. Apr 2024 at 16:46:41:841
 
 creating netlist... done.
 Starting C:/Users/tkeller/Documents/qucs/qucs-0.0.19/bin/qucsator.exe
@@ -12,11 +12,12 @@ factorycreate.size() is 0
 factorycreate has registered:
 parsing netlist...
 checking netlist...
+checker notice, value of `S' (variable `Gap') could be out of range `[0,0.' in `MGAP:MS4'
 checker notice, variable `S' in equation `S11dB' not yet defined
 netlist content
       2 MLIN instances
+      1 MGAP instances
       1 MOPEN instances
-      1 C instances
       1 Pac instances
       1 SUBST instances
       1 SW instances
@@ -24,7 +25,7 @@ netlist content
 creating netlist...
 checker notice, variable `S' in equation `S11dB' not yet defined
 
-Simulation ended on Mon 15. Apr 2024 at 16:36:32:706
+Simulation ended on Mon 15. Apr 2024 at 16:46:42:607
 Ready.
 
 
